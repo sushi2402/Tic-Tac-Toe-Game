@@ -1,0 +1,25 @@
+.board-container{
+  margin: 20px;
+}
+
+.board-row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.square-container {
+  border: 1px solid;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
